@@ -25,7 +25,7 @@ fn parse_args() -> Operation {
     let op = match op.as_str() {
         "create" if args.peek().is_none() => Operation::Create,
         "roll" if args.peek().is_some() => {
-            // must be safe becauese we peeked before
+            // must be safe because we used peek before
             // in the match guard
             let dice = args.next().unwrap();
 
