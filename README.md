@@ -88,17 +88,17 @@ Roll any standard dice (`D4`, `D6`, `D8`, `D10`, `D12`, `D20`, `D100`) with an o
 # Basic roll
 $ dndutils roll D20
 Rolling D20...
-Result: [ 14 ] = 14
+Result: 14
 
 # Roll with a positive modifier
 $ dndutils roll d8 4
 Rolling D8 +4...
-Result: [ 6 ] +4 = 10
+Result: = 6
 
 # Roll with a negative modifier
 $ dndutils roll d20 -2
 Rolling D20 -2...
-Result: [ 12 ] -2 = 10
+Result: 10
 
 ```
 
@@ -109,3 +109,4 @@ Contributions, issues, and feature requests are always welcome! Feel free to ope
 ## 📝 License
 
 This project is [MIT](https://www.google.com/search?q=LICENSE) licensed.
+
